@@ -9,11 +9,11 @@
 
 64位
 
-    wget -N https://raw.githubusercontent.com/StarDust2608/alpineXrayR/releases/download/one-click/install-xrayr.sh && chmod +x install-xrayr.sh && bash install-xrayr.sh
+    wget -N https://raw.githubusercontent.com/StarDust2608/alpineXrayR/main/XrayR_Alpine/install-xrayr_x64.sh && chmod +x install-xrayr.sh && bash install-xrayr_x64.sh
     
 32位
 
-     wget -N https://raw.githubusercontent.com/StarDust2608/alpineXrayR/releases/download/one-click/install-xrayr-32.sh && chmod +x install-xrayr-32.sh && bash install-xrayr-32.sh
+     wget -N https://raw.githubusercontent.com/StarDust2608/alpineXrayR/main/XrayR_Alpine/install-xrayr_x32.sh && chmod +x install-xrayr-32.sh && bash install-xrayr_x32.sh
     
 重启XrayR
 
