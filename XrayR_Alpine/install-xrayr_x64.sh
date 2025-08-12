@@ -5,7 +5,7 @@ apk update
 apk add wget unzip openrc
 # 下载 XrayR
 mkdir -p /etc/XrayR && cd /etc/XrayR
-wget https://raw.githubusercontent.com/XrayR-project/XrayR/releases/download/v0.9.4/XrayR-linux-64.zip
+wget https://github.com/XrayR-project/XrayR/releases/download/v0.9.4/XrayR-linux-64.zip
 # 解压缩
 unzip XrayR-linux-64.zip
 rm -rf XrayR-linux-64.zip
