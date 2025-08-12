@@ -5,8 +5,8 @@ apk update
 apk add wget unzip openrc
 # 下载 XrayR
 wget https://raw.githubusercontent.com/XrayR-project/XrayR/releases/download/v0.9.4/XrayR-linux-32.zip
-# 解压缩
-unzip XrayR-linux-32.zip -d /etc/XrayR
+# 创建目录并解压缩
+mkdir -p /etc/XrayR && unzip XrayR-linux-32.zip -d /etc/XrayR
 # 添加执行权限
 chmod +x /etc/XrayR/XrayR
 # 创建软链接
